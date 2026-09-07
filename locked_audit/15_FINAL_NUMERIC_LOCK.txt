@@ -1,0 +1,203 @@
+======================================================================
+MAMMALIAN GENOME VERSION 1.0
+FINAL NUMERIC CONSISTENCY LOCK
+======================================================================
+
+Manuscript:
+Mammalian_Genome_submission_manuscript.txt
+
+Audit:
+12B_Mammalian_Genome_numeric_consistency_audit_FINAL_v4.R
+
+AUTOMATED AUDIT
+---------------
+Canonical metrics audited : 59
+Automated PASS            : 42
+Manual-review items       : 17
+Automated FAIL            : 0
+
+MANUAL ADJUDICATION
+-------------------
+Manual-review items checked : 17
+Manual PASS                 : 17
+Manual FAIL                 : 0
+
+FINAL RESULT
+------------
+Metrics cleared             : 59 / 59
+Numeric contradictions      : 0
+
+FINAL STATUS:
+PASS — NUMERIC CONSISTENCY LOCKED
+
+
+CORE FROZEN RESULTS
+-------------------
+
+RNA tissue-effect genes:
+18,870
+
+ATAC tissue-effect peaks:
+176,917
+
+High-confidence tissue-specific RNA genes:
+5,036
+
+High-confidence tissue-specific ATAC peaks:
+40,545
+
+Concordant tissue-specific peak-gene associations:
+4,674
+
+Unique concordant genes:
+1,417
+
+Positive P348/P350/mean associations:
+3,916
+
+Strongly coupled associations:
+702
+
+Strong unique genes:
+450
+
+Very strongly coupled associations:
+226
+
+Very-strong unique genes:
+176
+
+
+PROMOTER-FIRST LOCK
+-------------------
+
+Official genomic architecture variable:
+Pair_specific_class
+
+All assigned pairs:
+168,999
+
+All promoter-associated pairs:
+16,677
+
+High-confidence pairs:
+4,674
+
+High-confidence promoter-associated pairs:
+543
+
+Strong pairs:
+702
+
+Strong promoter-associated pairs:
+121
+
+Strong promoter percentage:
+17.2365%
+
+Median absolute TSS distance:
+All        = 33,378 bp
+HC         = 17,248.5 bp
+Strong     = 11,549 bp
+
+Strong vs All nonStrong:
+OR = 1.908870
+Manuscript rounded value = 1.909
+
+Strong vs HC nonStrong:
+OR = 1.751679
+Manuscript rounded value = 1.752
+
+
+PERMUTATION LOCK
+----------------
+
+Strong:
+Observed  = 702
+Null mean = 588.39
+Fold      = 1.193
+Z         = 5.69
+Pperm     < 1e-4
+
+Very strong:
+Observed  = 226
+Null mean = 167.93
+Fold      = 1.346
+Z         = 5.03
+Pperm     < 1e-4
+
+
+MUSCLE KLF9 ARCHITECTURE LOCK
+-----------------------------
+
+KLF9 q-positive peaks:
+121
+
+Promoter:
+30 / 121 = 24.79%
+
+KLF9-negative:
+26 / 223 = 11.66%
+
+OR:
+2.491
+
+Promoter FDR:
+0.00651
+
+Median TSS:
+Positive = 4,199 bp
+Negative = 15,777 bp
+
+TSS-distance FDR:
+3.19e-4
+
+
+MUSCLE SP-LIKE ARCHITECTURE LOCK
+--------------------------------
+
+SP-like q-positive peaks:
+138
+
+Promoter:
+40 / 138 = 28.99%
+
+SP-like-negative:
+16 / 206 = 7.77%
+
+OR:
+4.823
+
+Promoter FDR:
+2.42e-6
+
+Median TSS:
+Positive = 4,246.5 bp
+Negative = 16,942 bp
+
+TSS-distance FDR:
+6.84e-7
+
+
+INTERPRETATION GUARDRAILS
+-------------------------
+
+Peak-gene association does not equal validated regulation.
+
+UROPA assignment does not identify a causal target.
+
+Correlation and permutation do not establish causality.
+
+FIMO q <= 0.05 indicates a high-confidence sequence match,
+not transcription-factor occupancy.
+
+Motif-family similarity does not establish TF binding.
+
+Motif overlap does not establish TF cooperation.
+
+Candidate regulatory modules are computationally prioritized
+modules, not experimentally validated regulatory networks.
+
+======================================================================
+FINAL STATUS: PASS / LOCKED
+======================================================================

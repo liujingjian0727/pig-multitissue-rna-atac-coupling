@@ -1,0 +1,3 @@
+Assay	GEO_series	BioProject	SuperSeries	Organism	Assembly	NCBI_assembly	Ensembl_release
+RNA-seq	GSE158412	PRJNA665193	GSE158430	Sus scrofa	Sscrofa11.1	GCF_000003025.6	115
+ATAC-seq	GSE158414	PRJNA665194	GSE158430	Sus scrofa	Sscrofa11.1	GCF_000003025.6	115

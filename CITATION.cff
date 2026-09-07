@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Paired multi-tissue RNA-seq and ATAC-seq integration in pig"
+authors:
+  - family-names: "Liu"
+    given-names: "Jingjian"
+date-released: 2026-09-07
+version: "v1.0"
+repository-code: "TO_BE_ADDED_AFTER_GITHUB_RELEASE"

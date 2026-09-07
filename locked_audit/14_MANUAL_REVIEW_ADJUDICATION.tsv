@@ -1,0 +1,18 @@
+ID	Expected	Manual_status	Reason
+KLF9_OR	2.491	PASS	Matches frozen Step08E3A KLF9 promoter-architecture result and manuscript context.
+KLF9_PROM_FDR	0.00651	PASS	Matches frozen Step08E3A KLF9 promoter Fisher-test FDR.
+KLF9_PROM_NEG	26/223	PASS	Manuscript correctly reports 26 promoter-associated peaks among 223 KLF9-negative muscle strong peaks.
+KLF9_PROM_POS	30/121	PASS	Manuscript reports 121 KLF9-positive peaks with 30 promoter-associated peaks; semantically equivalent to 30/121 although not written as a contiguous ratio.
+KLF9_TSS_FDR	3.19e-4	PASS	Matches frozen Step08E3A KLF9 TSS-distance comparison.
+PERM_P	Pperm<1e-4	PASS	Matches 10000-permutation Step05B result; none of the permutations reached the observed statistic.
+PERM_STRONG_FOLD	1.193	PASS	Matches frozen Step05B strong-coupling enrichment.
+PERM_STRONG_NULL	588.39	PASS	Matches frozen Step05B strong-coupling null mean.
+PERM_STRONG_Z	5.69	PASS	Matches frozen Step05B strong-coupling Z score.
+PERM_VERY_FOLD	1.346	PASS	Matches frozen Step05B very-strong coupling enrichment.
+PERM_VERY_NULL	167.93	PASS	Matches frozen Step05B very-strong coupling null mean.
+PERM_VERY_Z	5.03	PASS	Matches frozen Step05B very-strong coupling Z score.
+PROMOTER_FDR_ALL	6.04e-9	PASS	Matches frozen Step07B promoter-enrichment adjusted result; associated OR was independently recomputed as 1.908870.
+SP_OR	4.823	PASS	Matches frozen Step08E3A SP-like promoter-architecture result.
+SP_PROM_FDR	2.42e-6	PASS	Matches frozen Step08E3A SP-like promoter Fisher-test FDR.
+SP_PROM_NEG	16/206	PASS	Manuscript correctly reports 16 promoter-associated peaks among 206 SP-like-negative muscle strong peaks.
+SP_PROM_POS	40/138	PASS	Manuscript correctly reports 40 promoter-associated peaks among 138 SP-like-positive muscle strong peaks.
