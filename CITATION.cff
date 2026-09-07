@@ -7,3 +7,6 @@ authors:
 date-released: 2026-09-07
 version: "v1.0"
 repository-code: "TO_BE_ADDED_AFTER_GITHUB_RELEASE"
+repository-code: "https://github.com/liujingjian0727/pig-multitissue-rna-atac-coupling"
+doi: "10.5281/zenodo.22640238"
+version: "v1.1"
