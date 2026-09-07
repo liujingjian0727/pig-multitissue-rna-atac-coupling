@@ -46,4 +46,4 @@ Peak-gene associations, motif matches, candidate transcription factors, and netw
 
 ## Citation
 
-A formal citation and archived DOI will be added after repository release.
+- doi: 10.5281/zenodo.22640238.
