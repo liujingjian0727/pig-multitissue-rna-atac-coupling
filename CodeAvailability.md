@@ -16,5 +16,4 @@ The repository includes scripts and audit records for:
 - candidate-module construction;
 - figure generation and supplementary-table source locking;
 - manuscript numeric consistency auditing.
-
-The archived release DOI will be added after repository release.
+- doi: 10.5281/zenodo.22640238.
