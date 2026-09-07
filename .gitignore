@@ -1,0 +1,52 @@
+# Raw sequencing files
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.sra
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Genome browser files
+*.bw
+*.bigWig
+*.bb
+*.bigBed
+
+# Large intermediate files
+*.rds
+*.RData
+*.Rhistory
+*.rda
+*.h5
+*.h5ad
+*.loom
+
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.Rproj.user/
+.vscode/
+.idea/
